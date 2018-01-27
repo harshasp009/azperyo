@@ -1,0 +1,27 @@
+name: Azforyou
+type: theme
+description: This is a azforyou sub theme of bootstrap
+core: 8.x
+# Defines the base theme
+base theme: bootstrap
+
+libraries:
+  - azforyou/global-styling
+#regions
+regions:
+  header: Header
+  header_top: Header Top
+  banner: Banner
+  featured: Featured
+  promise_to_deliver: Promised to Deliver
+  our_company: Our Company
+  recent_project: Recent Projects
+  customer_reviews: Customer Review
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  header_menu: Header Menu
+  footer_one: Footer One
+  footer_two: Footer Two
+  footer_three: Footer Three

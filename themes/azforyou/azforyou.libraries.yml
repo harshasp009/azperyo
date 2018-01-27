@@ -1,0 +1,11 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      font-awesome/css/font-awesome.min.css: {}
+
+  js:
+     js/custom-script.js: {}
+
+  dependencies:
+        - core/jquery

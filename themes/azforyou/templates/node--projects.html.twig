@@ -1,0 +1,43 @@
+{%
+set classes = [
+node.bundle|clean_class,
+node.isPromoted() ? 'is-promoted',
+node.isSticky() ? 'is-sticky',
+not node.isPublished() ? 'is-unpublished',
+view_mode ? view_mode|clean_class,
+'clearfix',
+]
+%}
+<article{{ attributes.addClass(classes) }}>
+
+    {{ title_prefix }}
+    {% if not page %}
+        <h2{{ title_attributes }}>
+            <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+        </h2>
+    {% endif %}
+    {{ title_suffix }}
+
+    {% if display_submitted %}
+        <footer>
+            {{ author_picture }}
+            <div{{ author_attributes.addClass('author') }}>
+                {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+                {{ metadata }}
+            </div>
+        </footer>
+    {% endif %}
+
+    <div class="project_images">
+        {{ content.field_project_images }}
+    </div>
+
+    <div class="project_desciption">
+        {{ content.body }}
+    </div>
+
+    <div class="project_testimonial">
+        {{ content.field_customer_testimonial }}
+    </div>
+
+</article>

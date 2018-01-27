@@ -1,0 +1,291 @@
+footer.footer {
+    /*background: #0e0e0e;*/
+    background-color: #1e2128;
+    background-image: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+    border-top: 4px solid #1e2128;
+    font-size: 0.9em;
+    margin-top: 0;
+    padding: 40px 0 0;
+    position: relative;
+    clear: both;
+    color: #ffffff;
+
+}
+body {
+    font-size: 1.75em;
+    font-weight: normal;
+    font-family: 'Ubuntu',sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.75em;
+    color: #222222;
+    /*background: url(/themes/azforyou/img/img1.jpg);*/
+}
+div.region-footer-one {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin: 0 0 14px 0;
+}
+
+div.region-footer-one h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+div.contact-details ul {
+    list-style: none;
+    padding-left: 0;
+}
+div.contact-details ul li {
+    line-height: 24px;
+}
+div.contact-details ul li p {
+    margin-bottom: 10px;
+}
+div.contact-details ul li p i {
+    display: block;
+    float: left;
+    font-size: 1.2em;
+    margin: 7px 8px 10px 0;
+    position: relative;
+    text-align: center;
+    top: -2px;
+    width: 16px;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+div.page-header-top {
+    background-color: #171717;
+    border-bottom: 5px solid #0088cc;
+    border-top: 5px solid #384045;
+    margin: 0 0 35px 0;
+    min-height: 50px;
+    padding: 20px 0;
+    position: relative;
+    text-align: left;
+    color: #fff;
+}
+h1.page-header {
+    border-bottom: none;
+}
+ul.navbar-nav {
+   float: right;
+    border-bottom: 2px solid #0088cc;
+    margin-top: 25px;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #0087cd;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #171717;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #0087cd;
+}
+div.logo_img img {
+    height: 65px;
+}
+div.field--name-field-service-image img {
+    margin: 0 auto;
+    border-radius: 50%;
+    border:5px solid #d4a152;
+}
+div.field--name-field-service-image {
+    margin-bottom: 25px;
+}
+ol.breadcrumb {
+    padding: 0;
+    margin-bottom: 6px;
+    background-color:transparent;
+    border-radius:0;
+    font-size: 18px;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 0px;
+    font-weight: 300;
+}
+div.view-services-view div.thumbnail {
+    box-sizing: border-box;
+    border-bottom: 1px solid #DFDFDF;
+    border-left: 1px solid #ECECEC;
+    border-radius: 8px;
+    border-right: 1px solid #ECECEC;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    padding-top: 16px;
+}
+div.view-services-view div.thumbnail img {
+    border: 2px solid #333;
+    border-radius: 50%;
+}
+div.view-services-view div.view-header {
+    text-align: center;
+}
+div.single-service {
+    margin-bottom: 30px;
+    border: 1px solid #e9e4e4;
+    text-align: center;
+    padding: 45px 30px 55px 30px;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+div.more_services {
+    text-align: center;
+    font-size: 25px;
+}
+div.more_services a {
+    font-weight: 500;
+}
+div.region-featured {
+    padding: 20px 0;
+}
+div.more_services a:hover {
+    text-decoration: none;
+}
+div.single-service p {
+    font-size: 1em;
+    font-weight: 300;
+}
+div.single-service h5 {
+    font-size: 1.25em;
+    font-weight: 600;
+}
+div.promised_deliver {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+    height: auto;
+}
+div.region-our-company img {
+    height: 450px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    margin-top: 25px;
+}
+div.region-our-company {
+    padding: 20px 0;
+}
+div.region-our-company h2 {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #0087cd;
+}
+div.region-our-company ul li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #0087cd;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+div.region-our-company ul {
+    list-style: none;
+}
+section#block-getstarted {
+    background: #0073bb;
+    color: #fff;
+    padding: 10px 0;
+}
+
+section#block-getstarted div.get-started {
+    padding-top: 5px;
+}
+section#block-getstarted div.get-started a {
+    background: transparent;
+    border: 3px solid #fff;
+}
+
+div.project_images {
+    margin: 20px 0;
+}
+div.imagefield_slideshow-prev {
+    border: 1px solid transparent;
+    width: 38px;
+    border-radius: 12%;
+    padding: 0 10px;
+    display: inline-block;
+    background: #3379b7;
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+
+div.imagefield_slideshow-next {
+    border: 1px solid transparent;
+    width: 38px;
+    border-radius: 12%;
+    padding: 0 10px;
+    background: #3379b7;
+    color: #fff;
+    margin-top: 8px;
+    display: inline-block;
+}
+img.service_icon {
+    height: 25px;
+    margin-right: 5px;
+}
+ul.service_list {
+    list-style: none;
+}
+ul.service_list li a {
+    font-weight: 500;
+    color: #000;
+}
+ul.service_list li a:hover {
+    text-decoration: none;
+}
+div.region-recent-project h2 {
+    text-align: center;
+}
+div.region-recent-project {
+    padding: 30px 0;
+}
+div.region-recent-project img {
+    border: 2px solid #d5d5d5;
+    padding: 8px;
+}
+div.customer_reviews {
+    background: url("../img/t-back.jpg") no-repeat;
+    background-size: 100%;
+    background-position-y: 50%;
+}
+ul.jcarousel-container-horizontal {
+    list-style: none;
+}
+div.customer_reviews h2 {
+    text-align: center;
+    font-weight: 700;
+}
+div.customer_reviews blockquote {
+    border-left: 5px solid #222;
+}
+body.path-portfolio div.view-id-our_project img {
+    border: 2px solid #d5d5d5;
+    padding: 8px;
+}
+body.path-portfolio div.view-id-our_project {
+    padding: 30px 0;
+}
+ul.footer-navigation li a {
+    color: #fff;
+}
+ul.footer-navigation li a:hover {
+    background-color: transparent;
+}
